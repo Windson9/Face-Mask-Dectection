@@ -1,4 +1,4 @@
-# Covid-19 - Face Mask Detector using Deep Learning
+# Face Mask Detection using Deep Learning
 
 ![Face Mask Detector](images/detections.jpg)
 ## Objective:
@@ -29,7 +29,7 @@ headModel = Dropout(0.5)(headModel)
 headModel = Dense(2, activation="softmax")(headModel)
 ```
 
-The images were split into training and validation sets on 80/20 proportion. The numbers are around 6974 for training and 1742 for validation. 
+The images were split into training and validation sets on 80/20 proportion. 
 
 I used the **ImageGenerator** from Keras to automatically split the dataset. 
 
@@ -45,7 +45,7 @@ train_datagen = ImageDataGenerator(rescale=1./255,
     validation_split=0.2) # set validation split
 ```
 
-The images are on a folder called **"data/train"**.
+The images are on a folder called **"dataset"**.
 
 The network was trained dusring 20 epochs and the final accuracy of around **90%** on the validation samples.
 
