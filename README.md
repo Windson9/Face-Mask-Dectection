@@ -1,6 +1,6 @@
 # Covid-19 - Face Mask Detector using Deep Learning
 
-![Face Mask Detector](images/my.png)
+![Face Mask Detector](images/detections.jpg)
 ## Objective:
 
 The Covid-19 changed our lives and has changed our habits and also because of it many of us entered social isolation.
