@@ -66,8 +66,6 @@ Please change the **SOURCE** variable to choose between them.
 python videoDetection.py
 ```
 
-![Mask Face Detector in Action](images/Mask_Detector_using_Deep_Learning.gif)
-
 ## Improvements and drawbacks
 
 - Label more images
