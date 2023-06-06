@@ -49,7 +49,7 @@ The images are on a folder called **"data/train"**.
 
 The network was trained dusring 20 epochs and the final accuracy of around **90%** on the validation samples.
 
-## Run
+## Install Dependencies
 
 You can run the prediction from an image selected from your cpu or using the webcam.
 
@@ -59,6 +59,11 @@ Please install the requirements before running the python script.
 
 ``` shell
 pip install -r requirements.txt
+```
+## Run Video Detection
+
+``` shell
+python videoDetection.py
 ```
 
 ![Mask Face Detector in Action](images/Mask_Detector_using_Deep_Learning.gif)
