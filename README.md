@@ -51,16 +51,16 @@ The network was trained dusring 20 epochs and the final accuracy of around **90%
 
 ## Install Dependencies
 
-You can run the prediction from an image selected from your cpu or using the webcam.
-
-Please change the **SOURCE** variable to choose between them.
-
 Please install the requirements before running the python script.
 
 ``` shell
 pip install -r requirements.txt
 ```
 ## Run Video Detection
+
+You can run the prediction from an image selected from your cpu or using the webcam.
+
+Please change the **SOURCE** variable to choose between them.
 
 ``` shell
 python videoDetection.py
