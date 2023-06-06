@@ -68,7 +68,7 @@ python videoDetection.py
 
 ![Mask Face Detector in Action](images/Mask_Detector_using_Deep_Learning.gif)
 
-## Improvements and drawnbacks
+## Improvements and drawbacks
 
 - Label more images
 - Include no face images class to train when the detect faces send bad images
